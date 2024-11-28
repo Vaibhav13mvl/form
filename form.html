@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        input[type=text],input[type=password],input[type=email],input[type=number],textarea{
+          width: 98%;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: brown;text-align: center;">Registration Form</h2>
+    <form action="">
+<table>
+  <caption>Registration Form</caption>
+  <tr>
+  <td>Enter Your Frist Name</td>
+  <td><input type="text" id="Name"></td>
+  </tr>
+  <tr>
+  <td>Enter Your Last Name</td>
+  <td><input type="text" id="Name"></td>
+  </tr>
+  <tr>
+  <td>Enter Your Password</td>
+  <td><input type="password" id="pwd" name="pwd"></td>
+  </tr>
+  <tr>
+  <td>ReEnter Your Password</td>
+  <td><input type="password" id="pwd" name="pwd"></td>
+  </tr>
+  <tr>
+  <td>Enter Your Email</td>
+  <td><input type="email" id="Name"></td>
+  </tr>
+  <tr>
+  <td>Enter Your Mobile</td>
+  <td><input type="number" id="Name"></td>
+  </tr>
+  <tr>
+  <td>Enter Your address</td>
+  <td><textarea name="address" id="TextArea"></textarea></td>
+  </tr>
+  <tr>
+    <td>Select your gender</td>
+    <td>
+      
+    <label for="">Male</label>
+    <input type="radio" id="male" name="Male">
+    <label for="">Female</label>
+    <input type="radio" id="female" name="Male">
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Select your hobbies</td>
+    <td>
+    <label for="">Hobbies1</label>
+    <input type="checkbox" id="driving" name="driving">
+    <label for="">Hobbies2</label>
+    <input type="checkbox" id="driving" name="driving">
+    <label for="">Hobbies3</label>
+    <input type="checkbox" id="driving" name="driving">
+    </td>
+  </tr>
+    
+  <tr>
+  <td>Select your DOB</td>
+  <td><input type="date" id="Name"></td>
+  </tr>
+    
+  <tr>
+  <td>Select your Country</td>
+  <td>
+  <select name="Country" id="India">
+  <option value="Country">India</option>
+  <option value="Country">Japan</option>
+  <option value="Country">US</option>
+  <option value="Country">Rassia</option>
+  </select>
+  <select name="" id="">
+  <option value="State">Maharashtra</option>
+  <option value="State">Panjab</option>
+  <option value="State">Gujarat</option>
+  <option value="State">Uttar Pradesh</option>
+  <option value="State">Aassam</option>
+  </select>
+  <select name="" id="">
+  <option value="Dist">Satara</option>
+  <option value="Dist">pune</option>
+  <option value="Dist">Mumbai</option>
+  <option value="Dist">Sangali</option>
+  <option value="Dist">Kolhapur</option>
+  </select>
+  </td>
+  </tr>
+
+<tr>
+<td>Upload your Pic</td>
+<td>
+<input type="file" id="Photo" name="Choose file">
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<div style="display:flex;justify-content: center;align-items: center;">
+  <input type="submit" value="Save my data">
+  <input style="margin-left: 10px;" type="Reset">
+
+</div>
+
+</td>
+
+</tr>
+</table>
+    </form>
+</body>
+</html>
